@@ -8,7 +8,7 @@
 
 #bannerGrid{
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 150px 1fr;
   border-bottom: 1px solid orange;
 }
 
@@ -80,4 +80,19 @@ li{
 
 .devMain{
   text-align: center;
+}
+
+.bannerWord span{
+  margin-right: 340px;
+  color:black;
+}
+
+.bannerWord a{
+  margin-right: 100px;
+}
+
+@media (max-width: 1000px) {
+  .bannerWord span{margin-right: 10px; font-size: 25px;}
+  .bannerWord a{margin-right: 10px; font-size: 25px;}
+  .liPadding{padding-left: 0px; font-size: 15px;}
 }
